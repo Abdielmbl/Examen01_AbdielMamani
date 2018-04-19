@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+ 
+<form name="login" id="login"> 
+	<div id="logeo">
+     
+           <input name="usuario"  id="has" type="text" class="Input" value=""  /> 
+        
+           <input name="password" type="password" class="Input" value=""  id="has" /> 
+         
+           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="enviarte" id="enviarte" /> 
+        
+      
+ </div>
+</form> 
+
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="abdiel" && password=="fia") { 
+window.location="Registrar.html"; 
+} else {
+  alert ("eroor");
+}
+
+if (usuario=="abc" && password=="fia") { 
+window.location="index.html"; 
+} 
+if (usuario=="" && password=="") { 
+window.location="index.html"; 
+}
+
+}
+
+
+
+        </script> 
+</center> 
+<script language="Javascript"> 
+<!-- Begin 
+document.oncontextmenu = function(){return false} 
+// End --> 
+</script>
+</body>
+</html>

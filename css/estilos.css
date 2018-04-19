@@ -1,0 +1,232 @@
+body {
+  background: #212F3D; }
+
+#cajon{
+  width: 1900px;
+  height: 900px;
+  background-color: white ;
+}
+#mandado{
+  width: 100%;
+  height: 93%;
+
+}
+
+#caja{
+  background-color: #F8F4F3 ;
+  width: 1900px;
+  height: 100px;
+}
+
+#boton5{
+  background-color: #F8F4F3 ;
+    width: 200px;
+    height: 80px;
+    border:currentColor;
+    margin-right: 700px;
+    font-size: 50px;
+   text-align: left;
+
+  }
+  #boton10{
+    width: 100px;
+    margin-left: 30px;
+    height: 60px;
+    background: #F8F4F3 ;
+    border:currentColor;
+    font-size: 30px;}
+    
+    #boton3{
+    width: 100px;
+    margin-left: 30px;
+    height: 60px;
+    background-image: url("https://www.agenciacolocacion.org/images/lupa.png");
+    border:currentColor;
+    background-color: #F8F4F3 ;
+    font-size: 30px;}
+
+
+#login{
+  width :1880px;
+  height: 810px;
+  background-color: #F7F9F9 ;
+
+
+}
+#logeo{
+  width: 800px;
+  height: 400px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: #F7F9F9; 
+}
+
+#has{
+  width: 200px;
+  height: 30px;
+  margin-top: 100px;
+  margin-left:3px;
+}
+#enviarte{
+   width: 200px;
+   height: 40px;
+   font-size: 30px;
+   margin-top: 10px;
+   background: #5D6D7E;
+}
+
+
+header {
+  width: 1010px;
+  height: 690px;
+  background: #8D6E63;
+  margin: auto;
+  margin-bottom: 30px; }
+
+form {
+  border-radius: 3px;
+  text-align: center;
+  height: 100px;
+  width: 1010px;
+  background: #F0B27A;
+  margin: auto; }
+  form #boton1 {
+    width: 150px;
+    height: 50px; }
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #5499C7;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-family: Verdana,sans-serif; }
+
+button:hover {
+  color: #F7F9F9;
+  background: #21618C; }
+
+button {
+  transition: color 0.1s linear 0s; }
+
+nav {
+  height: 60px;
+  width: 1010px;
+  background: green;
+  margin: auto;
+  font-size: 50px;
+  background: #4A4D4F;
+  text-align: center;
+  margin-top: 20px; }
+
+iframe {
+  width: 99.6%;
+  margin-left: 10px;
+  margin: auto;
+  height: 80%;
+  background: white; }
+
+footer {
+  width: 100%;
+  margin-top: 10px;
+  height: 20px;
+  background: #FEF5E7;
+  margin: auto;
+  text-align: center; }
+
+address {
+  background: white;
+  width: 980px;
+  height: 530px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 3px; }
+  address section {
+    width: 980px;
+    height: 33px;
+    background: #eee2df;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 30px; }
+  address main {
+    margin-top: 10px;
+    width: 200px;
+    height: 480px;
+    float: left;
+    background: #fbfaf8;
+    margin-left: 10px;
+    border-radius: 5px; }
+    address main label {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-bottom: 30px;
+      border-radius: 2px;
+      background: #FFF5EE;
+      width: 190px;
+      height: 30px; }
+    address main input {
+      margin-bottom: 30px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      margin-left: 5px;
+      background: #d2bcad;
+      width: 190px; }
+    address main select {
+      margin-bottom: 15px;
+      margin-left: 5px;
+      background: #ffae5f;
+      width: 190px; }
+    address main #boton2 {
+      background: #42A5F5;
+      width: 100px;
+      height: 40px;
+      margin-top: 10px;
+      margin-left: 40px;
+      border-radius: 5px; }
+    address main #boton2:hover {
+      color: #F7F9F9;
+      background: #0D47A1; }
+    address main #boton2 {
+      transition: color 0.1s linear 0s; }
+
+article {
+  width: 750px;
+  height: 480px;
+  background: #f5e1d8;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px; }
+  article table {
+    width: 570px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    font-size: 12pt;
+    border-radius: 5px; }
+    article table th {
+      vertical-align: top;
+      text-align: left;
+      border: 1px solid #1F0601;
+      padding-left: 5px;
+      font-size: 14px;
+      color: black;
+      background: white; }
+    article table td {
+      font-size: 14px;
+      padding-left: 5px;
+      background: white; }
+
+
+  }
+
+
+
+/*# sourceMappingURL=estilos.css.map */

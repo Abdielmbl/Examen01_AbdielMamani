@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Ventas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<address>
+		<section>Registrando Ventas</section>
+		<main>
+			<label>Cliente</label>
+			<input type="text" class="caja" id="Cliente"><br>
+			
+			<label>Producto</label><br>
+				<select class="button" id="Producto">
+					<option value="0000">Seleccionar Producto</option>
+					<option value="Laptop hp">Laptop hp</option>
+					<option value="Camara">Camara</option>
+					<option value="Audifono">Audifono</option>
+				</select><br>
+				<label >Cantidad</label>
+				<input type="text" id="Cantidad"><br>
+				<label>Precio</label><br>
+				<input type="text"  id="Precio"><br>
+
+		<button id="boton2" onclick="agregar()" class="boton">Enviar</button>
+		<button id="boton2" onclick="Guardar_Edicion()" class="boton">Guardar Editacion</button>
+		
+	</main>
+	<article>
+		<div>
+			<label>Cliente:</label>
+			<label id="nombre2"></label>
+		</div>
+		
+			<table id="data">
+			<thead>
+					<tr>
+					    <th>#</th>
+						<th>Producto</th>
+						<th>Cantidad</th>
+						<th>Precio</th>
+						<th>Total</th>
+				    <th colspan="2">Acciones</th>
+			        </tr>
+		            </thead>
+		</table>
+	</article>
+	</address>
+	<script src= "Js/script.js"></script>
+
+
+</body>
+</html>
